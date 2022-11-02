@@ -8,7 +8,7 @@ export default function Home() {
         <div>5 день - тех. задачи</div>
       </div>
       <div>
-        <div>Сегодня - {new Date().getDay()}</div>
+        <div>Сегодня - {new Date().getDay() + 1}</div>
       </div>
     </div>
   )
